@@ -30,6 +30,10 @@ jobs:
       # contents: read
       # actions: read
 
+- name: OSSF Scorecard action
+  uses: ossf/scorecard-action@v2.4.1
+
+
     steps:
       - name: "Checkout code"
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
